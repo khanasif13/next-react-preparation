@@ -1,7 +1,7 @@
 "use client";
 import React, { useRef, useState } from "react";
 
-const todolist = () => {
+const Todolist = () => {
   const inputRef = useRef(null);
   const [items, setItems] = useState([]);
 
@@ -60,6 +60,6 @@ const todolist = () => {
   )
 }
 
-export default todolist;
+export default Todolist;
 
 
